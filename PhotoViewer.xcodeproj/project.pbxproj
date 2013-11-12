@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB9AA522182E10920084FE62 /* SecondCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9AA521182E10920084FE62 /* SecondCollectionViewController.m */; };
+		EB9AA525182E171C0084FE62 /* SecondCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9AA524182E171C0084FE62 /* SecondCollectionViewCell.m */; };
+		EBCC47601830C30B0014082C /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCC475F1830C30B0014082C /* TestViewController.m */; };
+		EBCC4763183105F10014082C /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCC4762183105F10014082C /* Singleton.m */; };
 		EBDDC1B1182BBF8800058C38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDDC1B0182BBF8800058C38 /* Foundation.framework */; };
 		EBDDC1B3182BBF8800058C38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDDC1B2182BBF8800058C38 /* CoreGraphics.framework */; };
 		EBDDC1B5182BBF8800058C38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDDC1B4182BBF8800058C38 /* UIKit.framework */; };
@@ -16,8 +20,6 @@
 		EBDDC1C3182BBF8800058C38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDDC1C2182BBF8800058C38 /* AppDelegate.m */; };
 		EBDDC1C6182BBF8800058C38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBDDC1C4182BBF8800058C38 /* Main.storyboard */; };
 		EBDDC1C9182BBF8800058C38 /* PhotoViewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBDDC1C7182BBF8800058C38 /* PhotoViewer.xcdatamodeld */; };
-		EBDDC1CC182BBF8800058C38 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDDC1CB182BBF8800058C38 /* MasterViewController.m */; };
-		EBDDC1CF182BBF8800058C38 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDDC1CE182BBF8800058C38 /* DetailViewController.m */; };
 		EBDDC1D1182BBF8800058C38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBDDC1D0182BBF8800058C38 /* Images.xcassets */; };
 		EBDDC1D8182BBF8800058C38 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDDC1D7182BBF8800058C38 /* XCTest.framework */; };
 		EBDDC1D9182BBF8800058C38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDDC1B0182BBF8800058C38 /* Foundation.framework */; };
@@ -25,6 +27,19 @@
 		EBDDC1DB182BBF8800058C38 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDDC1B6182BBF8800058C38 /* CoreData.framework */; };
 		EBDDC1E3182BBF8800058C38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBDDC1E1182BBF8800058C38 /* InfoPlist.strings */; };
 		EBDDC1E5182BBF8800058C38 /* PhotoViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDDC1E4182BBF8800058C38 /* PhotoViewerTests.m */; };
+		EBDDC1F0182CA95900058C38 /* MyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDDC1EF182CA95900058C38 /* MyCollectionViewController.m */; };
+		EBDDC1F6182CAFC800058C38 /* MyCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDDC1F5182CAFC800058C38 /* MyCollectionCell.m */; };
+		EBDDC202182CC3AE00058C38 /* cute_nature-HD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBDDC1F7182CC3AE00058C38 /* cute_nature-HD.jpg */; };
+		EBDDC203182CC3AE00058C38 /* download (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EBDDC1F8182CC3AE00058C38 /* download (1).jpeg */; };
+		EBDDC204182CC3AE00058C38 /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EBDDC1F9182CC3AE00058C38 /* download.jpeg */; };
+		EBDDC205182CC3AE00058C38 /* eight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBDDC1FA182CC3AE00058C38 /* eight.jpg */; };
+		EBDDC206182CC3AE00058C38 /* five.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBDDC1FB182CC3AE00058C38 /* five.jpg */; };
+		EBDDC207182CC3AE00058C38 /* four.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBDDC1FC182CC3AE00058C38 /* four.jpg */; };
+		EBDDC208182CC3AE00058C38 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EBDDC1FD182CC3AE00058C38 /* images.jpeg */; };
+		EBDDC209182CC3AE00058C38 /* index.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBDDC1FE182CC3AE00058C38 /* index.jpg */; };
+		EBDDC20A182CC3AE00058C38 /* seven.JPG in Resources */ = {isa = PBXBuildFile; fileRef = EBDDC1FF182CC3AE00058C38 /* seven.JPG */; };
+		EBDDC20B182CC3AE00058C38 /* six.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBDDC200182CC3AE00058C38 /* six.jpg */; };
+		EBDDC20C182CC3AE00058C38 /* two.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBDDC201182CC3AE00058C38 /* two.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +53,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB9AA520182E10920084FE62 /* SecondCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondCollectionViewController.h; sourceTree = "<group>"; };
+		EB9AA521182E10920084FE62 /* SecondCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondCollectionViewController.m; sourceTree = "<group>"; };
+		EB9AA523182E171C0084FE62 /* SecondCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondCollectionViewCell.h; sourceTree = "<group>"; };
+		EB9AA524182E171C0084FE62 /* SecondCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondCollectionViewCell.m; sourceTree = "<group>"; };
+		EBCC475E1830C30B0014082C /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		EBCC475F1830C30B0014082C /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		EBCC4761183105F10014082C /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Singleton.h; path = PhotoViewer/Singleton.h; sourceTree = "<group>"; };
+		EBCC4762183105F10014082C /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Singleton.m; path = PhotoViewer/Singleton.m; sourceTree = "<group>"; };
 		EBDDC1AD182BBF8800058C38 /* PhotoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBDDC1B0182BBF8800058C38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EBDDC1B2182BBF8800058C38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,16 +74,27 @@
 		EBDDC1C2182BBF8800058C38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EBDDC1C5182BBF8800058C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBDDC1C8182BBF8800058C38 /* PhotoViewer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoViewer.xcdatamodel; sourceTree = "<group>"; };
-		EBDDC1CA182BBF8800058C38 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		EBDDC1CB182BBF8800058C38 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		EBDDC1CD182BBF8800058C38 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		EBDDC1CE182BBF8800058C38 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		EBDDC1D0182BBF8800058C38 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EBDDC1D6182BBF8800058C38 /* PhotoViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBDDC1D7182BBF8800058C38 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EBDDC1E0182BBF8800058C38 /* PhotoViewerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoViewerTests-Info.plist"; sourceTree = "<group>"; };
 		EBDDC1E2182BBF8800058C38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EBDDC1E4182BBF8800058C38 /* PhotoViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoViewerTests.m; sourceTree = "<group>"; };
+		EBDDC1EE182CA95900058C38 /* MyCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewController.h; sourceTree = "<group>"; };
+		EBDDC1EF182CA95900058C38 /* MyCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewController.m; sourceTree = "<group>"; };
+		EBDDC1F4182CAFC800058C38 /* MyCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionCell.h; sourceTree = "<group>"; };
+		EBDDC1F5182CAFC800058C38 /* MyCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionCell.m; sourceTree = "<group>"; };
+		EBDDC1F7182CC3AE00058C38 /* cute_nature-HD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cute_nature-HD.jpg"; sourceTree = "<group>"; };
+		EBDDC1F8182CC3AE00058C38 /* download (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "download (1).jpeg"; sourceTree = "<group>"; };
+		EBDDC1F9182CC3AE00058C38 /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
+		EBDDC1FA182CC3AE00058C38 /* eight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eight.jpg; sourceTree = "<group>"; };
+		EBDDC1FB182CC3AE00058C38 /* five.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = five.jpg; sourceTree = "<group>"; };
+		EBDDC1FC182CC3AE00058C38 /* four.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = four.jpg; sourceTree = "<group>"; };
+		EBDDC1FD182CC3AE00058C38 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		EBDDC1FE182CC3AE00058C38 /* index.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = index.jpg; sourceTree = "<group>"; };
+		EBDDC1FF182CC3AE00058C38 /* seven.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seven.JPG; sourceTree = "<group>"; };
+		EBDDC200182CC3AE00058C38 /* six.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = six.jpg; sourceTree = "<group>"; };
+		EBDDC201182CC3AE00058C38 /* two.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = two.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +126,8 @@
 		EBDDC1A4182BBF8800058C38 = {
 			isa = PBXGroup;
 			children = (
+				EBCC4761183105F10014082C /* Singleton.h */,
+				EBCC4762183105F10014082C /* Singleton.m */,
 				EBDDC1B8182BBF8800058C38 /* PhotoViewer */,
 				EBDDC1DE182BBF8800058C38 /* PhotoViewerTests */,
 				EBDDC1AF182BBF8800058C38 /* Frameworks */,
@@ -126,10 +162,16 @@
 				EBDDC1C1182BBF8800058C38 /* AppDelegate.h */,
 				EBDDC1C2182BBF8800058C38 /* AppDelegate.m */,
 				EBDDC1C4182BBF8800058C38 /* Main.storyboard */,
-				EBDDC1CA182BBF8800058C38 /* MasterViewController.h */,
-				EBDDC1CB182BBF8800058C38 /* MasterViewController.m */,
-				EBDDC1CD182BBF8800058C38 /* DetailViewController.h */,
-				EBDDC1CE182BBF8800058C38 /* DetailViewController.m */,
+				EBDDC1EE182CA95900058C38 /* MyCollectionViewController.h */,
+				EBDDC1EF182CA95900058C38 /* MyCollectionViewController.m */,
+				EBDDC1F4182CAFC800058C38 /* MyCollectionCell.h */,
+				EBDDC1F5182CAFC800058C38 /* MyCollectionCell.m */,
+				EB9AA520182E10920084FE62 /* SecondCollectionViewController.h */,
+				EB9AA521182E10920084FE62 /* SecondCollectionViewController.m */,
+				EB9AA523182E171C0084FE62 /* SecondCollectionViewCell.h */,
+				EB9AA524182E171C0084FE62 /* SecondCollectionViewCell.m */,
+				EBCC475E1830C30B0014082C /* TestViewController.h */,
+				EBCC475F1830C30B0014082C /* TestViewController.m */,
 				EBDDC1D0182BBF8800058C38 /* Images.xcassets */,
 				EBDDC1C7182BBF8800058C38 /* PhotoViewer.xcdatamodeld */,
 				EBDDC1B9182BBF8800058C38 /* Supporting Files */,
@@ -140,6 +182,17 @@
 		EBDDC1B9182BBF8800058C38 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EBDDC1F7182CC3AE00058C38 /* cute_nature-HD.jpg */,
+				EBDDC1F8182CC3AE00058C38 /* download (1).jpeg */,
+				EBDDC1F9182CC3AE00058C38 /* download.jpeg */,
+				EBDDC1FA182CC3AE00058C38 /* eight.jpg */,
+				EBDDC1FB182CC3AE00058C38 /* five.jpg */,
+				EBDDC1FC182CC3AE00058C38 /* four.jpg */,
+				EBDDC1FD182CC3AE00058C38 /* images.jpeg */,
+				EBDDC1FE182CC3AE00058C38 /* index.jpg */,
+				EBDDC1FF182CC3AE00058C38 /* seven.JPG */,
+				EBDDC200182CC3AE00058C38 /* six.jpg */,
+				EBDDC201182CC3AE00058C38 /* two.jpg */,
 				EBDDC1BA182BBF8800058C38 /* PhotoViewer-Info.plist */,
 				EBDDC1BB182BBF8800058C38 /* InfoPlist.strings */,
 				EBDDC1BE182BBF8800058C38 /* main.m */,
@@ -242,9 +295,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBDDC20C182CC3AE00058C38 /* two.jpg in Resources */,
+				EBDDC20B182CC3AE00058C38 /* six.jpg in Resources */,
+				EBDDC203182CC3AE00058C38 /* download (1).jpeg in Resources */,
+				EBDDC20A182CC3AE00058C38 /* seven.JPG in Resources */,
+				EBDDC208182CC3AE00058C38 /* images.jpeg in Resources */,
+				EBDDC209182CC3AE00058C38 /* index.jpg in Resources */,
+				EBDDC206182CC3AE00058C38 /* five.jpg in Resources */,
 				EBDDC1D1182BBF8800058C38 /* Images.xcassets in Resources */,
+				EBDDC205182CC3AE00058C38 /* eight.jpg in Resources */,
+				EBDDC207182CC3AE00058C38 /* four.jpg in Resources */,
+				EBDDC202182CC3AE00058C38 /* cute_nature-HD.jpg in Resources */,
 				EBDDC1BD182BBF8800058C38 /* InfoPlist.strings in Resources */,
 				EBDDC1C6182BBF8800058C38 /* Main.storyboard in Resources */,
+				EBDDC204182CC3AE00058C38 /* download.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +327,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBDDC1CF182BBF8800058C38 /* DetailViewController.m in Sources */,
-				EBDDC1CC182BBF8800058C38 /* MasterViewController.m in Sources */,
+				EB9AA525182E171C0084FE62 /* SecondCollectionViewCell.m in Sources */,
+				EBDDC1F6182CAFC800058C38 /* MyCollectionCell.m in Sources */,
+				EBDDC1F0182CA95900058C38 /* MyCollectionViewController.m in Sources */,
+				EB9AA522182E10920084FE62 /* SecondCollectionViewController.m in Sources */,
 				EBDDC1C9182BBF8800058C38 /* PhotoViewer.xcdatamodeld in Sources */,
 				EBDDC1C3182BBF8800058C38 /* AppDelegate.m in Sources */,
+				EBCC4763183105F10014082C /* Singleton.m in Sources */,
+				EBCC47601830C30B0014082C /* TestViewController.m in Sources */,
 				EBDDC1BF182BBF8800058C38 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +466,7 @@
 				GCC_PREFIX_HEADER = "PhotoViewer/PhotoViewer-Prefix.pch";
 				INFOPLIST_FILE = "PhotoViewer/PhotoViewer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -411,6 +480,7 @@
 				GCC_PREFIX_HEADER = "PhotoViewer/PhotoViewer-Prefix.pch";
 				INFOPLIST_FILE = "PhotoViewer/PhotoViewer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -476,6 +546,7 @@
 				EBDDC1EA182BBF8800058C38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBDDC1EB182BBF8800058C38 /* Build configuration list for PBXNativeTarget "PhotoViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +555,7 @@
 				EBDDC1ED182BBF8800058C38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
